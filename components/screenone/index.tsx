@@ -24,7 +24,7 @@ const Screenone = () => {
           <br /><br />
           
             <div className="col form-group w-100" >
-              <input type="text" required className="form-control p-3 rounded mb-3 bg-white" placeholder="Enter your product name here. Example: 'PIXMA' " style={{"width":"90%"}} />
+              <input type="text" required className="form-control p-3 rounded mb-3 bg-white text-dark" placeholder="Enter your product name here. Example: 'PIXMA' " style={{"width":"90%"}} />
             </div>
             
             
