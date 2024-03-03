@@ -6,7 +6,7 @@ const Features = () => {
       
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className=" max-w-full px-4 xl:mr-12">
+            <div className=" max-w-full px-4 xl:mr-12 text-dark">
           <p>Install Canon Smart software and drivers on each mobile device or computer you want to print from. Add the printer <br />
              on the new device.</p>
              <br />

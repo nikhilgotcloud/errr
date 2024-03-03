@@ -3,7 +3,7 @@ const Featurestwo = () => {
   return (
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28">
-        <div className="container mb-2 border border-dark rounded">
+        <div className="container mb-2 border border-dark rounded text-dark">
           <p className="ms-5 mt-2" style={{ "fontSize": "24px" }}><b>The printer Software will help you</b></p>
           <br />
           <ul>
@@ -16,7 +16,7 @@ const Featurestwo = () => {
 
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className=" max-w-full px-4 xl:mr-12 mt-3">
+            <div className=" max-w-full px-4 xl:mr-12 mt-3 text-dark">
               <p>Install Canon Smart software and drivers on each mobile device or computer you want to print from. Add the printer <br />
                 on the new device.</p>
               <br />
