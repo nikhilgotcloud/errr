@@ -24,15 +24,15 @@ const Screenthree = () => {
           <br />
 
           <div className="col-12 form-group " >
-              <input type="text" className="form-control p-3 rounded mb-3" placeholder="Your Full Name " required style={{"width":"120%"}}/>
+              <input type="text" className="form-control p-3 rounded mb-3  bg-white" placeholder="Your Full Name " required style={{"width":"120%"}}/>
             </div>
         <br />
         <div className="col-12 form-group " >
-              <input type="email" className="form-control p-3 rounded mb-3" placeholder="Your Email "  required  style={{"width":"120%"}}/>
+              <input type="email" className="form-control p-3 rounded mb-3  bg-white" placeholder="Your Email "  required  style={{"width":"120%"}}/>
             </div>
             <br />
             <div className="col-12 form-group " >
-              <input type="number" className="form-control p-3 rounded mb-3" placeholder="Your Contact No. " required  style={{"width":"120%"}} />
+              <input type="number" className="form-control p-3 rounded mb-3  bg-white" placeholder="Your Contact No. " required  style={{"width":"120%"}} />
             </div>
             
             <button type="button" onClick={handleClick} className="btn rounded bg-white border border-white mt-5 py-3 px-5 shadow" style={{ "color": "blue" , "width":"30%" }}>Next</button>
