@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -43,7 +42,7 @@ const Header = () => {
       <header
   className={`header left-0 top-0 z-40 flex w-full items-center ${
     sticky
-      ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
+      ? "white:bg-white-dark white:shadow-sticky-white fixed z-[9999] !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
       : "absolute"
   } bg-white`}
 >
