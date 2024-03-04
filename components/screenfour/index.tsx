@@ -73,7 +73,7 @@ const Screenfour = () => {
             <div className='col-1'></div>
 
             <div className='col-8 w-100' >
-              <p style={{ "color": "white", "fontSize": "30px" }} className='mb-5'>Downloading cannon Smart Software</p>
+              <p style={{ "color": "white", "fontSize": "30px" }} className='mb-5'>Downloading Canon Smart Software</p>
               <MdRadioButtonChecked className={`mt-1 mb-3 ${styles.radioicon}`} size={50} style={{ "marginLeft": "10%" }} />
               <p className='mx-2 text-white'> {progressText}</p>
               <div className={styles.progressbar}>

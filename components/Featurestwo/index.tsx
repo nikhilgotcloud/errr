@@ -8,7 +8,7 @@ const Featurestwo = () => {
           <br />
           <ul>
             <li>🖨️ Install printer software and drivers. </li>  <br />
-            <li>🖨️ Create a cannon account and register your printer .</li>  <br />
+            <li>🖨️ Create a canon account and register your printer .</li>  <br />
             <li className="mb-2">🖨️ After setup, you can use, the Cannon Smart Software to print , scan and copy files , print remotely , <br /> and more. </li>
           </ul>
 
