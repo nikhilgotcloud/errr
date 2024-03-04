@@ -29,7 +29,7 @@ const Screentwo = () => {
           </p>
         
             
-            <button type="button" onClick={handleClick} className="btn rounded bg-white border text-center border-white mt-5 py-3 px-5 shadow" style={{ "color": "blue" , "width":"30%" }}>Download</button>
+            <button type="button" onClick={handleClick} className="btn rounded bg-white border text-center border-white mt-5 py-3 px-5 shadow" style={{ "color": "#902434" , "width":"30%" }}>Download</button>
           
           
         </div>

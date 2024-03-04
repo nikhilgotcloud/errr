@@ -35,7 +35,7 @@ const Screenthree = () => {
               <input type="number" className="form-control p-3 rounded mb-3  bg-white text-dark" placeholder="Your Contact No. " required  style={{"width":"120%"}} />
             </div>
             
-            <button type="button" onClick={handleClick} className="btn rounded bg-white text-dark border border-white mt-5 py-3 px-5 shadow" style={{ "color": "blue" , "width":"30%" }}>Next</button>
+            <button type="button" onClick={handleClick} className="btn rounded bg-white  border border-white mt-5 py-3 px-5 shadow" style={{ "color": "#902434" , "width":"30%" }}>Next</button>
           
           
         </div>
