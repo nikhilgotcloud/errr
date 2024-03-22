@@ -20,34 +20,34 @@ const Screenfive = () => {
             <div className='col-1'></div>
 
             <div className='col-8 w-100' >
-              <p style={{ "color": "white", "fontSize": "30px" }} >Setup Failed- Canon Printer Driver </p>
+              <p style={{ "color": "white", "fontSize": "30px" }} >⚠️ Fatal error occured during installation </p>
               <br />
-              <p style={{ "color": "white", "fontSize": "22" }} className='ms-2'>Canon Printer Driver installation has failed.
+              <p style={{ "color": "white", "fontSize": "22" }} className='ms-1'>Canon Printer Driver installation has failed. ⓘ
               </p>
               <br />
-              <p style={{ "color": "white", "fontSize": "20px" }} className='mb-3'>⚠️ Error Code: C-3 IP address not assigned.
+              <p style={{ "color": "white", "fontSize": "20px" }} className='mb-3'>🚫 Printer driver installation has been failed due to fatal error “C0000022” preventing <br /> product driver installation.
               </p>
-              <p style={{ "color": "white", "fontSize": "22" }} className='ms-2'>Contact Canon support to resolve this problem .
+              <p style={{ "color": "white", "fontSize": "22" }} className='ms-1'><b>Please Contact Canon Customer Support For Further Assistance !</b>
               </p>
               <br />
-
-              <button type="button" className="btn rounded text-white border text-center border-white mt-5 mb-2 py-3 px-4 shadow"
-                style={{ "width": "30%" }}>
+              <button type="button" onClick={handleclick} className="btn rounded  border text-warning  border-white mt-5 mb-2 py-3 px-4 shadow " style={{ "width": "80%","fontSize":"17px" ,"backgroundColor":"white", "color":"red"}}> <b>Chat Now</b></button> <br /> 
+              <button type="button" className="btn rounded  border text-center border-white mt-5 mb-2 py-3 px-4 shadow"
+                style={{ "width": "40%" ,"backgroundColor":"white", "color":"red"}}>
                 <div style={{ "display": "flex", "alignItems": "center" }}>
                   <img src="https://flagcdn.com/us.svg" alt='' width={20} height={20} style={{ "marginRight": "10px" }} />
-                  <span>✆ +1-888-276-3805</span>
+                  <span style={{"fontSize":"17px"}}> <b>✆ +1-888-276-3805</b></span>
                 </div>
                 </button>
 
-              <button type="button" className="btn rounded text-white border text-center border-white mt-5 mb-2 py-3 px-4 shadow ms-2"
-                style={{ "width": "30%" }}> 
+              <button type="button" className="btn rounded  border text-center border-white mt-5 mb-2 py-3 px-4 shadow ms-2"
+                style={{ "width": "40%", "backgroundColor":"white", "color":"red" }}> 
                 <div style={{ "display": "flex", "alignItems": "center" }}>
                   <img src="https://flagcdn.com/gb.svg" alt='' width={20} height={20} style={{ "marginRight": "10px" }} />
-                  <span>✆ +44 20 3239 0302</span>
+                  <span style={{"fontSize":"17px"}}><b>✆ +44 20 3239 0302</b> </span>
                 </div>
                 </button>
 
-              <button type="button" onClick={handleclick} className="btn rounded text-white border text-center border-white mt-5 mb-2 py-3 px-4 shadow ms-2" style={{ "width": "30%" }}>Chat with us</button>
+              
               <br /><br />
 
               <p style={{ "color": "white", "fontSize": "22" }} className='ms-2'>Note: Do not attempt to retry the installation as it can damange the printer and void the product warranty.
