@@ -9,7 +9,7 @@ import styles from './screentwo.module.scss';
 const Screentwo = () => {
   const router=useRouter();
   const handleClick=()=>{
-    router.push('/cannon-details')
+    router.push('/cannon-software-download')
   }
   
   return (
