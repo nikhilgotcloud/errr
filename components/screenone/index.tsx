@@ -56,8 +56,7 @@ const Screenone = () => {
         <div className='col-8 w-100' >
           <p style={{ "color": "white" , "fontSize":"30px" }}>Set up your Canon Printer</p>
           <br />
-          <p style={{ "color": "white" }}>Enter your Canon product name and model number to get the right Cannon Smart <br />
-            software and drivers for you
+          <p style={{ "color": "white" }}> <i>Find tailored Cannon Smart software by entering your Canon product name and model. Fill out the form for personalized support!</i>
           </p>
           <br />
           
